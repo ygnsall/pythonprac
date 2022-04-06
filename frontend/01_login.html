@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>로그인페이지</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
   <style>
+    * {
+      font-family: 'Jua', sans-serif;
+    }
     .mytitle {
       background-color: green;
 
@@ -25,23 +29,18 @@
       width: 300px;
       margin: auto;
     }
-
-    .mybtn {
-      width: 100px;
-      margin: auto;
-      display: block;
-    }
+    
   </style>
 </head>
 <body>
-<div class="warp">
-  <div class="mytitle">
-    <h1>로그인 페이지</h1>
-    <h5>아이디, 패스워드를 입력해주세요</h5>
+  <div class="warp">
+    <div class="mytitle">
+      <h1>로그인 페이지</h1>
+      <h5>아이디, 패스워드를 입력해주세요</h5>
+    </div>
+      <p>ID : <input type="text"/></p>
+      <p>PW : <input type="text"/></p>
+      <button>로그인하기</button>
   </div>
-    <p>ID : <input type="text"/></p>
-    <p>PW : <input type="text"/></p>
-    <button class="mybtn">로그인하기</button>
-</div>
 </body>
 </html>
