@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870bc47e-e4ac-4173-a5fc-4eaa099f0fcf" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/frontend/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/01_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/01_login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -25,11 +25,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27KY1BfJQA1nH34Ej8gDJzCI3hl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,7 +55,7 @@
       <updated>1649070029391</updated>
       <workItem from="1649070030440" duration="26000" />
       <workItem from="1649163003979" duration="2318000" />
-      <workItem from="1649234830692" duration="2214000" />
+      <workItem from="1649234830692" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1649163093345</created>
@@ -74,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649238309145</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first">
+      <created>1649242540064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649242540064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
