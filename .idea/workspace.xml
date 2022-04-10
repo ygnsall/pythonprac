@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="870bc47e-e4ac-4173-a5fc-4eaa099f0fcf" name="Changes" comment="first">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/github.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,8 @@
       <workItem from="1649234830692" duration="5555000" />
       <workItem from="1649418588151" duration="1634000" />
       <workItem from="1649421883968" duration="1257000" />
-      <workItem from="1649476617505" duration="11276000" />
+      <workItem from="1649476617505" duration="11572000" />
+      <workItem from="1649580785180" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1649163093345</created>
@@ -124,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649579913926</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first">
+      <created>1649580670101</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649580670101</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first">
+      <created>1649580948384</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649580948384</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
