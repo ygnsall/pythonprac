@@ -47,7 +47,7 @@
     </style>
     <script>
 
-        function hey() {
+        function openclose() {
             let status = $('#post-box').css('display');
             if (status == 'block') {
                 $('#post-box').hide();
@@ -68,7 +68,7 @@
         <hr class="my-4">
         <p></p>
         <p class="lead">
-            <a onclick="hey()" id="btn-posting-box" class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
+            <a onclick="openclose()" id="btn-posting-box" class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
         </p>
     </div>
     <div class="posting-box" id="post-box">
