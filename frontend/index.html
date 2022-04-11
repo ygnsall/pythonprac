@@ -48,20 +48,36 @@
     <script>
         $(document).ready(function () {
             listing();
-        });
+        }); // 로딩후 바로실행
 
         function listing() {
-            console.log('화면 로딩 후 잘 실행되었습니다');
-        }
-        function openclose() {
-            let status = $('#post-box').css('display');
-            if (status == 'block') {
-                $('#post-box').hide();
-                $('#btn-posting-box').text('포스팅박스 열기');
-            }else{
-                $('#post-box').show();
-                $('#btn-posting-box').text('포스팅박스 닫기');
-            }
+            $.ajax({
+                type: "GET",
+                url: "http://spartacodingclub.shop/post",
+                data: {},
+                success: function (response) {
+                    let rows = response['articles']
+                    for (let i = 0; i < rows.length; i++) {
+                        let comment = rows[i]['comment']
+                        let desc = rows[i]['desc']
+                        let image = rows[i]['image']
+                        let title = rows[i]['title']
+                        let url = rows[i]['url']
+
+                        let temp_html = `<div class="card">
+                                        <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/28677/365783_large_1559030955.jpg?1559030955"
+                                             class="card-img-top"
+                                             src="${image}"
+                                             alt="Card image cap">
+                                        <div class="card-body">
+                                            <a href="${url}" class="card-title">${title}</a>
+                                            <p class="card-text">${desc}</p>
+                                            <p class="coments">${comment}</p>
+                                        </div>
+                                    </div>`
+                    }
+                }
+            })
         }
     </script>
 </head>
@@ -97,7 +113,6 @@
                 <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 산천리 화려강산...</p>
                 <p class="coments">여기에 코멘트가 들어갑니다.</p>
             </div>
-
         </div>
         <div class="card">
             <img src="https://d2ur7st6jjikze.cloudfront.net/offer_photos/28677/365783_large_1559030955.jpg?1559030955"
